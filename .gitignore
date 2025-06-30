@@ -1,0 +1,47 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET temporary files
+*.vspscc
+*.vssscc
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Publish output
+publish/
+out/
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+
+# Test results
+TestResults/
+*.trx
+
+# Others
+*.swp
+*.bak
+*.tmp
