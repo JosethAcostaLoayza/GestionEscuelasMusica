@@ -50,9 +50,17 @@ En el archivo `appsettings.json`, actualiza la cadena de conexión:
 ```
 Reemplaza TU_SERVIDOR por el nombre o IP de tu servidor SQL.
 Luego, desde la terminal en la carpeta del proyecto o desde tu IDE favorito, ejecuta:
+```bash
 dotnet run
-
+```
 Esto levantará la API en http://localhost:5223 (puerto puede variar).
+
+### 3️⃣ Probar la API con Swagger
+Abre tu navegador y accede a:
+```bash
+http://localhost:5223/swagger/index.html
+```
+Desde ahí puedes ver toda la documentación y probar los endpoints interactivos.
 
 ## 🏗️ Estructura principal del API
 - 👨‍🎓 Alumnos: CRUD para estudiantes
