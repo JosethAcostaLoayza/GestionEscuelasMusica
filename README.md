@@ -31,24 +31,23 @@ Implementado con .NET 9, Entity Framework Core y Swagger para documentación y p
 
 ## 🚀 Configuración y despliegue
 
-1️⃣ Crear la base de datos
+### 1️⃣ Crear la base de datos
 
-Ejecuta el script SQL incluido `EscuelaMusica_DBScript.sql` en tu servidor SQL para crear la base de datos, tablas, stored procedures y datos iniciales.
+Ejecuta el script `EscuelaMusica_DBScript.sql` en tu servidor SQL para crear la base de datos, tablas, procedimientos almacenados y registros iniciales.
 
-```sql
--- Ejecuta el archivo EscuelaMusica_DBScript.sql en tu cliente SQL
+---
 
+### 2️⃣ Configurar la cadena de conexión y ejecutar la API
 
-2️⃣ Configurar la cadena de conexión y ejecutar la API
+En el archivo `appsettings.json`, actualiza la cadena de conexión:
 
-En el archivo appsettings.json del proyecto, actualiza la cadena de conexión para que apunte a tu servidor SQL:
-
+```json
 {
   "ConnectionStrings": {
     "EscuelaMusicaConnection": "Server=TU_SERVIDOR;Database=Italika_GestionEscuelasMusica;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }
-
+```
 Reemplaza TU_SERVIDOR por el nombre o IP de tu servidor SQL.
 Luego, desde la terminal en la carpeta del proyecto o desde tu IDE favorito, ejecuta:
 dotnet run
