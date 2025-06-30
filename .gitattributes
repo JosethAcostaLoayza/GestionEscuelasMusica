@@ -1,0 +1,28 @@
+# Normalizar fin de línea automáticamente para todos los archivos de texto
+* text=auto
+
+# Archivos C# con diff específico
+*.cs text diff=csharp
+
+# Archivos de proyecto Visual Studio
+*.sln text
+*.csproj text
+*.config text
+*.json text
+
+# Archivos SQL como texto
+*.sql text
+
+# Archivos Markdown
+*.md text
+
+# Archivos binarios (no hacer diff ni cambiar fin de línea)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.zip binary
+*.tar.gz binary
