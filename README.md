@@ -12,6 +12,13 @@ Implementado con .NET 9, Entity Framework Core y Swagger para documentación y p
 
 ---
 
+## 📂 Repositorio GitHub
+
+El código fuente completo y actualizado de este proyecto está disponible en:
+https://github.com/JosethAcostaLoayza/GestionEscuelasMusica
+
+---
+
 ## 📂 Contenido del repositorio
 
 - 📁 Código fuente del API (Controllers, Services, DTOs, Entities, Data Context)  
